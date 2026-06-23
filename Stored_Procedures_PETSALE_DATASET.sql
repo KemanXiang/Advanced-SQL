@@ -1,3 +1,7 @@
+#Objectives:
+#1.Create stored procedures
+#2.Execute stored procedures
+
 
 DROP TABLE IF EXISTS PETSALE;
 
