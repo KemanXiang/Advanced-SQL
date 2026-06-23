@@ -1,6 +1,10 @@
 # Advanced-SQL
 Views, Stored Procedures, ACID Transactions, and JOIN Statements
 
+## Views
+See file Views_HR_Database_Script.sql \
+In SQL, a view is an alternative way of representing data that exists in one or more tables. Just like a real table, it contains rows and columns. The fields in a view are fields from one or more real tables in the database. Though views can be queried like a table, views are dynamic; only the definition of the view is stored, not the data.
+
 ## ACID Transactions
 See file ACID_Transactions_BankAccounts-ShoeShop_Database_Script.sql \
 A transaction is simply a sequence of operations performed using one or more SQL statements as a single logical unit of work. A database transaction must be ACID (Atomic, Consistent, Isolated and Durable). The effects of all the SQL statements in a transaction can either be applied to the database using the COMMIT command or undone from the database using the ROLLBACK command. 
