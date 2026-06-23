@@ -1,3 +1,8 @@
+#Objectives:
+#1.Create a View and show a selection of data for a given table
+#2.Update a View to combine two or more tables in meaningful ways
+#3.Drop a created View
+
 DROP TABLE IF EXISTS EMPLOYEES;
 DROP TABLE IF EXISTS JOB_HISTORY;
 DROP TABLE IF EXISTS JOBS;
